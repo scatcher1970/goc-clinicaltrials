@@ -1,0 +1,23 @@
+2021-08-28 23:18:57,681 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting ClinicaltrialsApplication using Java 11.0.11 on BEASTY with PID 12688 (E:\Source-Peterson\clinicaltrials\target\classes started by Cranky in E:\Source-Peterson\clinicaltrials)
+2021-08-28 23:18:57,683 DEBUG org.springframework.boot.StartupInfoLogger [restartedMain] Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-08-28 23:18:57,683 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-28 23:18:57,706 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-28 23:18:57,707 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-28 23:18:58,286 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2021-08-28 23:18:58,291 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2021-08-28 23:18:58,291 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2021-08-28 23:18:58,291 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-08-28 23:18:58,339 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2021-08-28 23:18:58,339 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 632 ms
+2021-08-28 23:18:58,552 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [restartedMain] 
+
+Using generated security password: de8547fa-77b3-4f36-9d02-c076c287b727
+
+2021-08-28 23:18:58,604 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b78bc5a, org.springframework.security.web.context.SecurityContextPersistenceFilter@39dd9b33, org.springframework.security.web.header.HeaderWriterFilter@542477a6, org.springframework.security.web.csrf.CsrfFilter@2b2deb23, org.springframework.security.web.authentication.logout.LogoutFilter@6bb31556, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@300dc95b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3512dd8, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@13fd41d7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@d522302, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f06f2bd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@342fc179, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f2b2a99, org.springframework.security.web.session.SessionManagementFilter@7c2e0e50, org.springframework.security.web.access.ExceptionTranslationFilter@771c5a70, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a5964b6]
+2021-08-28 23:18:58,650 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2021-08-28 23:18:58,659 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2021-08-28 23:18:58,669 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-28 23:18:58,677 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started ClinicaltrialsApplication in 1.271 seconds (JVM running for 1.851)
+2021-08-28 23:19:14,322 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-28 23:19:14,323 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-08-28 23:19:14,324 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms

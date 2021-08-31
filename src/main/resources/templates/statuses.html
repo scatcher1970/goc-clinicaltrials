@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<select>
+  <option th:each="status : ${statuses}" th:value="${status.getStatus_id()}" th:text="${status.getStatus()}" />
+</select>
+</body>
+</html>

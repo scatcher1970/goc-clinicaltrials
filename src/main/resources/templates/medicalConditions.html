@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<select>
+  <option th:each="medicalCondition : ${medicalConditions}" th:value="${medicalCondition.getMed_condition_id()}" th:text="${medicalCondition.getMed_condition()}" />
+</select>
+</body>
+</html>

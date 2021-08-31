@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<select>
+  <option th:each="sponsor : ${sponsors}" th:value="${sponsor.getManufacturer_id()}" th:text="${sponsor.getManufacturer_name()}" />
+</select>
+</body>
+</html>
